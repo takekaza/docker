@@ -1,0 +1,16 @@
+{
+  "git.ignoreLimitWarning": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.tabSize": 2,
+  "eslint.enable": true,
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "eslint.validate": ["javascript", "javascripttreact", "vue"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "vetur.format.defaultFormatter.js": "none"
+}
